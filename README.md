@@ -5,9 +5,6 @@
     <h1 align="center"></h1>
 </p>
 <p align="center">
-    <em><code>► INSERT-TEXT-HERE</code></em>
-</p>
-<p align="center">
 	<!-- local repository, no metadata badges. -->
 <p>
 <p align="center">
