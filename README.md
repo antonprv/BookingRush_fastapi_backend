@@ -5,12 +5,7 @@
     <h1 align="center"></h1>
 </p>
 <p align="center">
-    <em><code>  ____                 _     _                 ____               _     
- | __ )   ___    ___  | | __(_) _ __    __ _  |  _ \  _   _  ___ | |__  
- |  _ \  / _ \  / _ \ | |/ /| || '_ \  / _` | | |_) || | | |/ __|| '_ \ 
- | |_) || (_) || (_) ||   < | || | | || (_| | |  _ < | |_| |\__ \| | | |
- |____/  \___/  \___/ |_|\_\|_||_| |_| \__, | |_| \_\ \__,_||___/|_| |_|
-                                       |___/                            </code></em>
+    <em><code>Booking Rush - fastapi Backend</code></em>
 </p>
 <p align="center">
 	<!-- local repository, no metadata badges. -->
@@ -48,13 +43,16 @@
 
 ##  Overview
 
-<code>► INSERT-TEXT-HERE</code>
+<code>This is a feature-rich backend for a mock hotel booking service.</code>
 
 ---
 
 ##  Features
 
-<code>► INSERT-TEXT-HERE</code>
+<code>► Fully custom authentication and authorisation with JWT-tokens. <br>
+► Backround tasks working as co-processes on separated CPU threads such as: email notification service, image optimisation service. <br>
+► Every value, every input and output is validated to prevent value errors. <br>
+► MVC architecture, easy to manage and scale. <br></code>
 
 ---
 
@@ -62,12 +60,10 @@
 
 ```sh
 └── /
-    ├── Backup-codes-fastapimailingservice.txt
     ├── LICENSE
     ├── README.md
     ├── alembic.ini
     ├── app
-    │   ├── __pycache__
     │   ├── bookings
     │   ├── config.py
     │   ├── dao
@@ -82,12 +78,8 @@
     │   ├── tasks
     │   ├── templates
     │   └── users
-    ├── dependencies
-    │   └── dependencies.txt
-    ├── example_requests.sql
     ├── requirements-dev.txt
     ├── requirements.txt
-    ├── struct.txt
     └── test_data_db.sql
 ```
 
@@ -99,12 +91,9 @@
 
 | File                                                                             | Summary                         |
 | ---                                                                              | ---                             |
-| [Backup-codes-fastapimailingservice.txt](Backup-codes-fastapimailingservice.txt) | <code>► INSERT-TEXT-HERE</code> |
-| [example_requests.sql](example_requests.sql)                                     | <code>► INSERT-TEXT-HERE</code> |
-| [requirements-dev.txt](requirements-dev.txt)                                     | <code>► INSERT-TEXT-HERE</code> |
-| [requirements.txt](requirements.txt)                                             | <code>► INSERT-TEXT-HERE</code> |
-| [struct.txt](struct.txt)                                                         | <code>► INSERT-TEXT-HERE</code> |
-| [test_data_db.sql](test_data_db.sql)                                             | <code>► INSERT-TEXT-HERE</code> |
+| [requirements-dev.txt](requirements-dev.txt)                                     | <code>► Dev and testing dependencies: mypy type checker, pytest and such.</code> |
+| [requirements.txt](requirements.txt)                                             | <code>► Essential dependencies to run the app.</code> |
+| [test_data_db.sql](test_data_db.sql)                                             | <code>► Some test data from travel.yandex.ru to feed into the database.</code> |
 
 </details>
 
@@ -112,7 +101,7 @@
 
 | File                               | Summary                         |
 | ---                                | ---                             |
-| [config.py](app/config.py)         | <code>► INSERT-TEXT-HERE</code> |
+| [config.py](app/config.py)         | <code>► Adds all necessary values from the .env file.</code> |
 | [database.py](app/database.py)     | <code>► INSERT-TEXT-HERE</code> |
 | [exceptions.py](app/exceptions.py) | <code>► INSERT-TEXT-HERE</code> |
 | [main.py](app/main.py)             | <code>► INSERT-TEXT-HERE</code> |
