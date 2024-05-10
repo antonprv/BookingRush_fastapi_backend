@@ -15,7 +15,7 @@ from app.bookings.schemas import SDictBooking
 
 router = APIRouter(
     prefix='/bookings',
-    tags=['Бронирования']
+    tags=['Bookings']
 )
 
 
