@@ -20,6 +20,10 @@
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=default&logo=Python&logoColor=white" alt="Python">
 	<img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=default&logo=Pytest&logoColor=white" alt="Pytest">
 	<img src="https://img.shields.io/badge/FastAPI-009688.svg?style=default&logo=FastAPI&logoColor=white" alt="FastAPI">
+   <img src="https://img.shields.io/badge/SQLAlchemy-AB47BC.svg?style=default&logo=SQLAlchemy&logoColor=white" alt="SQLAlchemy">
+   <img src="https://img.shields.io/badge/Redis-DC382D.svg?style=default&logo=Redis&logoColor=white" alt="Redis">
+   <img src="https://img.shields.io/badge/Pydantic-FFC107.svg?style=default&logo=Pydantic&logoColor=white" alt="Pydantic">
+   <img src="https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=default&logo=PostgreSQL&logoColor=white" alt="PostgreSQL">
 </p>
 
 <br><!-- TABLE OF CONTENTS -->
