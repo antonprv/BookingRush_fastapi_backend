@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Rush</title>
+</head>
+<body>
+    <div>
+        {% for hotel in hotels %}
+
+        <div style="display: flex; margin-bottom: 15px">
+            <img src="{{ url_for('static', path='images/'
+                + 'resized_big' + hotel.image_id|string + '.webp') }}"
+                alt="Hotel photo" width="200">
+            <div>
+                <h1>{{hotel.name }}</h1>
+                <h2>{{hotel.location}}</h2>
+                <h3>Осталось комнат: {{hotel.rooms_left}}</h3>
+            </div>
+        </div>
+
+        {% endfor %}
+    </div>
+</body>
+</html>
