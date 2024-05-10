@@ -43,13 +43,13 @@
 
 ##  Overview
 
-<code>► INSERT-TEXT-HERE</code>
+<code>► This is a fully functional mock backend for a hotel booking service made with FastAPI and PostgreSQL</code>
 
 ---
 
 ##  Features
 
-<code>► INSERT-TEXT-HERE</code>
+<code>► Custom authorisation and authentication with JWT tokens, simple native redoc and swagger documentation, background tasks such as email confirmation sender and .webp image optimiser</code>
 
 ---
 
@@ -57,12 +57,10 @@
 
 ```sh
 └── /
-    ├── Backup-codes-fastapimailingservice.txt
     ├── LICENSE
     ├── README.md
     ├── alembic.ini
     ├── app
-    │   ├── __pycache__
     │   ├── bookings
     │   ├── config.py
     │   ├── dao
@@ -77,12 +75,8 @@
     │   ├── tasks
     │   ├── templates
     │   └── users
-    ├── dependencies
-    │   └── dependencies.txt
-    ├── example_requests.sql
     ├── requirements-dev.txt
     ├── requirements.txt
-    ├── struct.txt
     └── test_data_db.sql
 ```
 
@@ -94,11 +88,8 @@
 
 | File                                                                             | Summary                         |
 | ---                                                                              | ---                             |
-| [Backup-codes-fastapimailingservice.txt](Backup-codes-fastapimailingservice.txt) | <code>► INSERT-TEXT-HERE</code> |
-| [example_requests.sql](example_requests.sql)                                     | <code>► INSERT-TEXT-HERE</code> |
 | [requirements-dev.txt](requirements-dev.txt)                                     | <code>► INSERT-TEXT-HERE</code> |
 | [requirements.txt](requirements.txt)                                             | <code>► INSERT-TEXT-HERE</code> |
-| [struct.txt](struct.txt)                                                         | <code>► INSERT-TEXT-HERE</code> |
 | [test_data_db.sql](test_data_db.sql)                                             | <code>► INSERT-TEXT-HERE</code> |
 
 </details>
@@ -329,7 +320,7 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [GNU GPLv3 Licence](https://choosealicense.com/licenses/gpl-3.0/) License. For more details, refer to the [LICENSE](https://github.com/antonprv/BookingRush_fastapi_backend?tab=GPL-3.0-1-ov-file) file.
 
 ---
 
