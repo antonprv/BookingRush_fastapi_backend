@@ -1,17 +1,21 @@
-██████╗  ██████╗  ██████╗ ██╗  ██╗██╗███╗   ██╗ ██████╗     ██████╗ ██╗   ██╗███████╗██╗  ██╗
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="project-logo">
+</p>
+<p align="center">
+    <h1 align="center"></h1>
+</p>
+<p align="center">
+    <em><code>██████╗  ██████╗  ██████╗ ██╗  ██╗██╗███╗   ██╗ ██████╗     ██████╗ ██╗   ██╗███████╗██╗  ██╗
 ██╔══██╗██╔═══██╗██╔═══██╗██║ ██╔╝██║████╗  ██║██╔════╝     ██╔══██╗██║   ██║██╔════╝██║  ██║
 ██████╔╝██║   ██║██║   ██║█████╔╝ ██║██╔██╗ ██║██║  ███╗    ██████╔╝██║   ██║███████╗███████║
 ██╔══██╗██║   ██║██║   ██║██╔═██╗ ██║██║╚██╗██║██║   ██║    ██╔══██╗██║   ██║╚════██║██╔══██║
 ██████╔╝╚██████╔╝╚██████╔╝██║  ██╗██║██║ ╚████║╚██████╔╝    ██║  ██║╚██████╔╝███████║██║  ██║
 ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="project-logo">
+                                                                                             </code></em>
 </p>
 <p align="center">
-    <h2 align="center"> 
-    </h2>
-</p>
+	<!-- local repository, no metadata badges. -->
+<p>
 <p align="center">
 		<em>Developed with the software and tools below.</em>
 </p>
@@ -45,13 +49,13 @@
 
 ##  Overview
 
-<code>► This is a fully functional mock backend for a hotel booking service made with FastAPI and PostgreSQL</code>
+<code>► INSERT-TEXT-HERE</code>
 
 ---
 
 ##  Features
 
-<code>► Custom authorisation and authentication with JWT tokens, simple native redoc and swagger documentation, background tasks such as email confirmation sender and .webp image optimiser</code>
+<code>► INSERT-TEXT-HERE</code>
 
 ---
 
@@ -59,10 +63,12 @@
 
 ```sh
 └── /
+    ├── Backup-codes-fastapimailingservice.txt
     ├── LICENSE
     ├── README.md
     ├── alembic.ini
     ├── app
+    │   ├── __pycache__
     │   ├── bookings
     │   ├── config.py
     │   ├── dao
@@ -77,8 +83,12 @@
     │   ├── tasks
     │   ├── templates
     │   └── users
+    ├── dependencies
+    │   └── dependencies.txt
+    ├── example_requests.sql
     ├── requirements-dev.txt
     ├── requirements.txt
+    ├── struct.txt
     └── test_data_db.sql
 ```
 
@@ -90,8 +100,11 @@
 
 | File                                                                             | Summary                         |
 | ---                                                                              | ---                             |
+| [Backup-codes-fastapimailingservice.txt](Backup-codes-fastapimailingservice.txt) | <code>► INSERT-TEXT-HERE</code> |
+| [example_requests.sql](example_requests.sql)                                     | <code>► INSERT-TEXT-HERE</code> |
 | [requirements-dev.txt](requirements-dev.txt)                                     | <code>► INSERT-TEXT-HERE</code> |
 | [requirements.txt](requirements.txt)                                             | <code>► INSERT-TEXT-HERE</code> |
+| [struct.txt](struct.txt)                                                         | <code>► INSERT-TEXT-HERE</code> |
 | [test_data_db.sql](test_data_db.sql)                                             | <code>► INSERT-TEXT-HERE</code> |
 
 </details>
@@ -322,7 +335,7 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ##  License
 
-This project is protected under the [GNU GPLv3 Licence](https://choosealicense.com/licenses/gpl-3.0/) License. For more details, refer to the [LICENSE](https://github.com/antonprv/BookingRush_fastapi_backend?tab=GPL-3.0-1-ov-file) file.
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
