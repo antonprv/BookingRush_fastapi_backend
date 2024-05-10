@@ -1,0 +1,7 @@
+venv/*
+.idea/*
+app/migrations/versions/*
+*/__pycache__/*
+*.pyc
+.mypy_cache/*
+.history/*
